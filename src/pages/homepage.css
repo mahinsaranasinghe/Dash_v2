@@ -1,0 +1,67 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bonheur+Royale&family=Gemunu+Libre:wght@800&family=Stick+No+Bills:wght@600&family=Yaldevi:wght@500&display=swap');
+
+
+.h1{
+    
+    font-family: 'Bonheur Royale',cursive;
+    font-size: 6em;
+    font-weight: bold;
+    font-style: italic;
+    text-shadow: 3px 3px 5px rgb(27, 153, 255);
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    display: flex;
+    
+/*
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+   
+    font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    */
+}
+
+
+.home{
+    font-family: 'Bonheur Royale',cursive;
+    font-weight: normal;
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 6rem;
+    
+}
+
+.body{
+    font-family: cursive;
+    height: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+.image{
+
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    /*background-image: url(../images/image.jpg);*/
+    
+    
+}
+
+.button{
+    color: rgb(0, 149, 207);
+    font-size: 30px;
+
+}

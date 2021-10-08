@@ -1,0 +1,13 @@
+.hum{
+    font-family: 'Bonheur Royale',cursive;
+    font-size: 6em;
+    font-weight: bold;
+    font-style: italic;
+    text-shadow: 3px 3px 5px rgb(27, 153, 255);
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    display: flex;
+    margin-top: 6cm;
+}

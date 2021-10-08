@@ -1,0 +1,126 @@
+.navbar{
+    height: 75px;
+    background-color: rgb(39, 39, 39);
+    display: flex;
+    align-items: center;
+}
+
+span{
+    margin-left: 15px;
+}
+
+.menu-bars{
+    font-size: 4rem;
+    background: none;
+    margin-top: 0rem;
+    height: 75px;
+    width: 85px;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    
+}
+.menu-bars:hover{
+    background-color: rgb(114, 114, 114);
+    transition: 350ms;
+    border-radius: 30px;
+    
+}
+
+.menu-bars_back{
+    font-size: 3rem;
+    background: none;
+    margin-left: 2rem;
+    
+}
+
+.nav-text{
+    display: flex;
+    align-items: center;
+    padding: 25px 0px 0px 15px;
+    list-style: none;
+    height: 75px;
+    justify-content: start;
+    
+}
+
+.nav-menu{
+    background-color:black;
+    width: 245px;
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    position:fixed;
+    top:0;
+    left: -100%;
+    transition: 840ms;
+}
+
+.nav-menu.active{
+    left: 0;
+    transition: 350ms;
+}
+
+.nav-text a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 18px;
+    width: 95%;
+    height: 120%;
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+    border-radius: 20px;
+    background-color: rgb(65, 65, 65);
+    transition: 350ms;
+}
+
+.nav-text a:hover{
+    background-color: deepskyblue;
+    color: black;
+    transition: 350ms;
+    font-size: 20px;
+}
+
+.nav-menu-items{
+    width: 100%;
+}
+
+.navbar-toggle{
+    background-color: #282c34;
+    width: 100%;
+    height: 75px;
+    align-items: center;
+    padding-top:20px;
+}
+
+.ribbon{
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 50px;
+    display: flex;
+    width: 100%;
+}
+
+.right{
+ 
+    font-size: 20px;
+    color: rgb(0, 128, 233);
+}
+
+.topbar{
+
+    font-size: 30px;
+    color: rgb(0, 128, 233);
+    padding: 28px 20px;
+    transition: 350ms;
+  
+}
+
+.topbar.active , .topbar:hover{
+    font-weight: 500;
+    font-size: 32px;
+    color: rgb(53, 222, 245);
+    transition: 350ms;
+    cursor: pointer;
+}
